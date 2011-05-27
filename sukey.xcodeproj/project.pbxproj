@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA329F913904E9F008C8B84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA329F813904E9F008C8B84 /* UIKit.framework */; };
+		2BA329FB13904E9F008C8B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA329FA13904E9F008C8B84 /* Foundation.framework */; };
+		2BA329FD13904E9F008C8B84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA329FC13904E9F008C8B84 /* CoreGraphics.framework */; };
+		2BA32A0313904E9F008C8B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32A0113904E9F008C8B84 /* InfoPlist.strings */; };
+		2BA32A0613904E9F008C8B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A0513904E9F008C8B84 /* main.m */; };
+		2BA32A0913904E9F008C8B84 /* sukeyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A0813904E9F008C8B84 /* sukeyAppDelegate.m */; };
+		2BA32A0C13904EA0008C8B84 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32A0A13904EA0008C8B84 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BA329F413904E9F008C8B84 /* sukey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sukey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA329F813904E9F008C8B84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BA329FA13904E9F008C8B84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA329FC13904E9F008C8B84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BA32A0013904E9F008C8B84 /* sukey-Info.plist */ = {isa = PBXFileReference; path = "sukey-Info.plist"; sourceTree = "<group>"; };
+		2BA32A0213904E9F008C8B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA32A0413904E9F008C8B84 /* sukey-Prefix.pch */ = {isa = PBXFileReference; path = "sukey-Prefix.pch"; sourceTree = "<group>"; };
+		2BA32A0513904E9F008C8B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA32A0713904E9F008C8B84 /* sukeyAppDelegate.h */ = {isa = PBXFileReference; path = sukeyAppDelegate.h; sourceTree = "<group>"; };
+		2BA32A0813904E9F008C8B84 /* sukeyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sukeyAppDelegate.m; sourceTree = "<group>"; };
+		2BA32A0B13904EA0008C8B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA329F113904E9F008C8B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA329F913904E9F008C8B84 /* UIKit.framework in Frameworks */,
+				2BA329FB13904E9F008C8B84 /* Foundation.framework in Frameworks */,
+				2BA329FD13904E9F008C8B84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA329E913904E9F008C8B84 = {
+			isa = PBXGroup;
+			children = (
+				2BA329FE13904E9F008C8B84 /* sukey */,
+				2BA329F713904E9F008C8B84 /* Frameworks */,
+				2BA329F513904E9F008C8B84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA329F513904E9F008C8B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA329F413904E9F008C8B84 /* sukey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA329F713904E9F008C8B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA329F813904E9F008C8B84 /* UIKit.framework */,
+				2BA329FA13904E9F008C8B84 /* Foundation.framework */,
+				2BA329FC13904E9F008C8B84 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA329FE13904E9F008C8B84 /* sukey */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32A0713904E9F008C8B84 /* sukeyAppDelegate.h */,
+				2BA32A0813904E9F008C8B84 /* sukeyAppDelegate.m */,
+				2BA32A0A13904EA0008C8B84 /* MainWindow.xib */,
+				2BA329FF13904E9F008C8B84 /* Supporting Files */,
+			);
+			path = sukey;
+			sourceTree = "<group>";
+		};
+		2BA329FF13904E9F008C8B84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32A0013904E9F008C8B84 /* sukey-Info.plist */,
+				2BA32A0113904E9F008C8B84 /* InfoPlist.strings */,
+				2BA32A0413904E9F008C8B84 /* sukey-Prefix.pch */,
+				2BA32A0513904E9F008C8B84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA329F313904E9F008C8B84 /* sukey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA32A0F13904EA0008C8B84 /* Build configuration list for PBXNativeTarget "sukey" */;
+			buildPhases = (
+				2BA329F013904E9F008C8B84 /* Sources */,
+				2BA329F113904E9F008C8B84 /* Frameworks */,
+				2BA329F213904E9F008C8B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sukey;
+			productName = sukey;
+			productReference = 2BA329F413904E9F008C8B84 /* sukey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA329EB13904E9F008C8B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Lateral;
+			};
+			buildConfigurationList = 2BA329EE13904E9F008C8B84 /* Build configuration list for PBXProject "sukey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BA329E913904E9F008C8B84;
+			productRefGroup = 2BA329F513904E9F008C8B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA329F313904E9F008C8B84 /* sukey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA329F213904E9F008C8B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA32A0313904E9F008C8B84 /* InfoPlist.strings in Resources */,
+				2BA32A0C13904EA0008C8B84 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA329F013904E9F008C8B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA32A0613904E9F008C8B84 /* main.m in Sources */,
+				2BA32A0913904E9F008C8B84 /* sukeyAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA32A0113904E9F008C8B84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA32A0213904E9F008C8B84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BA32A0A13904EA0008C8B84 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA32A0B13904EA0008C8B84 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA32A0D13904EA0008C8B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BA32A0E13904EA0008C8B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2BA32A1013904EA0008C8B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sukey/sukey-Prefix.pch";
+				INFOPLIST_FILE = "sukey/sukey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA32A1113904EA0008C8B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sukey/sukey-Prefix.pch";
+				INFOPLIST_FILE = "sukey/sukey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA329EE13904E9F008C8B84 /* Build configuration list for PBXProject "sukey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA32A0D13904EA0008C8B84 /* Debug */,
+				2BA32A0E13904EA0008C8B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA32A0F13904EA0008C8B84 /* Build configuration list for PBXNativeTarget "sukey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA32A1013904EA0008C8B84 /* Debug */,
+				2BA32A1113904EA0008C8B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA329EB13904E9F008C8B84 /* Project object */;
+}

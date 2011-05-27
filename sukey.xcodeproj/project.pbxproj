@@ -14,6 +14,8 @@
 		2BA32A0613904E9F008C8B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A0513904E9F008C8B84 /* main.m */; };
 		2BA32A0913904E9F008C8B84 /* sukeyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A0813904E9F008C8B84 /* sukeyAppDelegate.m */; };
 		2BA32A0C13904EA0008C8B84 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32A0A13904EA0008C8B84 /* MainWindow.xib */; };
+		2BA32A1E13905148008C8B84 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A1D13905148008C8B84 /* LTViewController.m */; };
+		2BA32A2113905328008C8B84 /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A2013905328008C8B84 /* LTView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +23,17 @@
 		2BA329F813904E9F008C8B84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BA329FA13904E9F008C8B84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2BA329FC13904E9F008C8B84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2BA32A0013904E9F008C8B84 /* sukey-Info.plist */ = {isa = PBXFileReference; path = "sukey-Info.plist"; sourceTree = "<group>"; };
+		2BA32A0013904E9F008C8B84 /* sukey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sukey-Info.plist"; sourceTree = "<group>"; };
 		2BA32A0213904E9F008C8B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2BA32A0413904E9F008C8B84 /* sukey-Prefix.pch */ = {isa = PBXFileReference; path = "sukey-Prefix.pch"; sourceTree = "<group>"; };
+		2BA32A0413904E9F008C8B84 /* sukey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sukey-Prefix.pch"; sourceTree = "<group>"; };
 		2BA32A0513904E9F008C8B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BA32A0713904E9F008C8B84 /* sukeyAppDelegate.h */ = {isa = PBXFileReference; path = sukeyAppDelegate.h; sourceTree = "<group>"; };
+		2BA32A0713904E9F008C8B84 /* sukeyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sukeyAppDelegate.h; sourceTree = "<group>"; };
 		2BA32A0813904E9F008C8B84 /* sukeyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sukeyAppDelegate.m; sourceTree = "<group>"; };
 		2BA32A0B13904EA0008C8B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2BA32A1C13905148008C8B84 /* LTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
+		2BA32A1D13905148008C8B84 /* LTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+		2BA32A1F13905328008C8B84 /* LTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTView.h; sourceTree = "<group>"; };
+		2BA32A2013905328008C8B84 /* LTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		2BA329FE13904E9F008C8B84 /* sukey */ = {
 			isa = PBXGroup;
 			children = (
+				2BA32A221390532F008C8B84 /* Library */,
+				2BA32A1B139050D3008C8B84 /* View Controllers */,
+				2BA32A1A139050C5008C8B84 /* Views */,
 				2BA32A0713904E9F008C8B84 /* sukeyAppDelegate.h */,
 				2BA32A0813904E9F008C8B84 /* sukeyAppDelegate.m */,
 				2BA32A0A13904EA0008C8B84 /* MainWindow.xib */,
@@ -91,6 +100,47 @@
 				2BA32A0513904E9F008C8B84 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA32A1A139050C5008C8B84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2BA32A1B139050D3008C8B84 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2BA32A221390532F008C8B84 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32A24139053B9008C8B84 /* Views */,
+				2BA32A23139053AE008C8B84 /* View Controllers */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		2BA32A23139053AE008C8B84 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32A1D13905148008C8B84 /* LTViewController.m */,
+				2BA32A1C13905148008C8B84 /* LTViewController.h */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2BA32A24139053B9008C8B84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BA32A2013905328008C8B84 /* LTView.m */,
+				2BA32A1F13905328008C8B84 /* LTView.h */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +207,8 @@
 			files = (
 				2BA32A0613904E9F008C8B84 /* main.m in Sources */,
 				2BA32A0913904E9F008C8B84 /* sukeyAppDelegate.m in Sources */,
+				2BA32A1E13905148008C8B84 /* LTViewController.m in Sources */,
+				2BA32A2113905328008C8B84 /* LTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

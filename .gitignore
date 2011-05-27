@@ -1,0 +1,20 @@
+build
+
+#*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.DS_Store
+
+§# Below from https://github.com/myell0w/MTStatusBarOverlay/blob/master/.gitignore
+
+*.pbxuser
+*.mode1v3
+*.mode2v3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+
+# Xcode 4
+*.xcworkspace
+xcuserdata
+*.xcuserdatad
+

@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface sukeyAppDelegate : NSObject <UIApplicationDelegate> {
+    UITabBarController *tabBaController;
 
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain)UIWindow *window;
+@property (nonatomic,retain)UITabBarController *tabBarController;
 
 @end

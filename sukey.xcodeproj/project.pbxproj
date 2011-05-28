@@ -16,9 +16,15 @@
 		2BA32A0C13904EA0008C8B84 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA32A0A13904EA0008C8B84 /* MainWindow.xib */; };
 		2BA32A1E13905148008C8B84 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A1D13905148008C8B84 /* LTViewController.m */; };
 		2BA32A2113905328008C8B84 /* LTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA32A2013905328008C8B84 /* LTView.m */; };
+		2BF3B54A13912D62002EC5E6 /* SKCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3B54913912D62002EC5E6 /* SKCompassViewController.m */; };
+		2BF3B54E13912D78002EC5E6 /* SKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3B54D13912D78002EC5E6 /* SKMapViewController.m */; };
+		2BF3B55113912D98002EC5E6 /* SKMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3B55013912D98002EC5E6 /* SKMapView.m */; };
+		2BF3B55413912DAA002EC5E6 /* SKCompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3B55313912DAA002EC5E6 /* SKCompassView.m */; };
+		2BF3B55E13914647002EC5E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF3B55D13914647002EC5E6 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B25B6BF139075FD0005FCA6 /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
 		2BA329F413904E9F008C8B84 /* sukey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sukey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA329F813904E9F008C8B84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2BA329FA13904E9F008C8B84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,6 +40,15 @@
 		2BA32A1D13905148008C8B84 /* LTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
 		2BA32A1F13905328008C8B84 /* LTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTView.h; sourceTree = "<group>"; };
 		2BA32A2013905328008C8B84 /* LTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTView.m; sourceTree = "<group>"; };
+		2BF3B54813912D62002EC5E6 /* SKCompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCompassViewController.h; sourceTree = "<group>"; };
+		2BF3B54913912D62002EC5E6 /* SKCompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCompassViewController.m; sourceTree = "<group>"; };
+		2BF3B54C13912D78002EC5E6 /* SKMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMapViewController.h; sourceTree = "<group>"; };
+		2BF3B54D13912D78002EC5E6 /* SKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMapViewController.m; sourceTree = "<group>"; };
+		2BF3B54F13912D98002EC5E6 /* SKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMapView.h; sourceTree = "<group>"; };
+		2BF3B55013912D98002EC5E6 /* SKMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMapView.m; sourceTree = "<group>"; };
+		2BF3B55213912DAA002EC5E6 /* SKCompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCompassView.h; sourceTree = "<group>"; };
+		2BF3B55313912DAA002EC5E6 /* SKCompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCompassView.m; sourceTree = "<group>"; };
+		2BF3B55D13914647002EC5E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF3B55E13914647002EC5E6 /* CoreLocation.framework in Frameworks */,
 				2BA329F913904E9F008C8B84 /* UIKit.framework in Frameworks */,
 				2BA329FB13904E9F008C8B84 /* Foundation.framework in Frameworks */,
 				2BA329FD13904E9F008C8B84 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B25B6BD139075DD0005FCA6 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2B25B6BF139075FD0005FCA6 /* Commons.h */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
 		2BA329E913904E9F008C8B84 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +94,7 @@
 		2BA329F713904E9F008C8B84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2BF3B55D13914647002EC5E6 /* CoreLocation.framework */,
 				2BA329F813904E9F008C8B84 /* UIKit.framework */,
 				2BA329FA13904E9F008C8B84 /* Foundation.framework */,
 				2BA329FC13904E9F008C8B84 /* CoreGraphics.framework */,
@@ -105,6 +130,10 @@
 		2BA32A1A139050C5008C8B84 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2BF3B54F13912D98002EC5E6 /* SKMapView.h */,
+				2BF3B55013912D98002EC5E6 /* SKMapView.m */,
+				2BF3B55213912DAA002EC5E6 /* SKCompassView.h */,
+				2BF3B55313912DAA002EC5E6 /* SKCompassView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -112,6 +141,10 @@
 		2BA32A1B139050D3008C8B84 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2BF3B54813912D62002EC5E6 /* SKCompassViewController.h */,
+				2BF3B54913912D62002EC5E6 /* SKCompassViewController.m */,
+				2BF3B54C13912D78002EC5E6 /* SKMapViewController.h */,
+				2BF3B54D13912D78002EC5E6 /* SKMapViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -119,6 +152,7 @@
 		2BA32A221390532F008C8B84 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				2B25B6BD139075DD0005FCA6 /* Commons */,
 				2BA32A24139053B9008C8B84 /* Views */,
 				2BA32A23139053AE008C8B84 /* View Controllers */,
 			);
@@ -209,6 +243,10 @@
 				2BA32A0913904E9F008C8B84 /* sukeyAppDelegate.m in Sources */,
 				2BA32A1E13905148008C8B84 /* LTViewController.m in Sources */,
 				2BA32A2113905328008C8B84 /* LTView.m in Sources */,
+				2BF3B54A13912D62002EC5E6 /* SKCompassViewController.m in Sources */,
+				2BF3B54E13912D78002EC5E6 /* SKMapViewController.m in Sources */,
+				2BF3B55113912D98002EC5E6 /* SKMapView.m in Sources */,
+				2BF3B55413912DAA002EC5E6 /* SKCompassView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +351,7 @@
 				2BA32A1113904EA0008C8B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Commons.h"
 
 
 @interface LTView : UIView {
     
+    
 }
 
-- (void)initWithImage:(UIImage *)img;
+- (id)initWithImage:(UIImage *)img;
 
-- (void)initWithBackground:(UIColor *)colour;
+- (id)initWithBackgroundColour:(UIColor *)colour;
 
-- (void)initWithImageAndPosition:(UIImage *) position:(CGPoint)position;
-
+- (void)addImageAtPositionWithTag:(UIImage *)img position:(CGPoint)position tag:(PictureTags)tag;
 @end

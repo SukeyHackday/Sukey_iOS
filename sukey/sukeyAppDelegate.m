@@ -62,6 +62,7 @@
 
 - (void)dealloc
 {
+    [tabBarController release];
     [_window release];
     [super dealloc];
 }

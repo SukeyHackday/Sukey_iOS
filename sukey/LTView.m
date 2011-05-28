@@ -20,14 +20,32 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+- (id)initWithImage:(UIImage *)img {
+    UIImageView *iv = [[UIImageView alloc] initWithImage:img];
+    CGRect frame = CGRectMake(0, 0, img.size.width, img.size.height);
+    self = [self initWithFrame:frame];
+    if (self) {
+        [self addSubview:iv];
+    }
+    [iv release];
+    return self;
 }
-*/
+
+- (id)initWithBackgroundColour:(UIColor *)colour {
+    self = [super init];
+    if (self) {
+        [self setBackgroundColor:colour];
+    }
+}
+
+
+- (void)addImageAtPositionWithTag:(UIImage *)img position:(CGPoint)position tag:(PictureTags)tag {
+    CGRect frame = CGRectMake(position.x, position.y, img.size.width, img.size.height);
+    UIImageView *iv = [[UIImageView alloc] initWithImage:img];
+    [iv setFrame:frame];
+    [iv setTag:tag];
+    [self addSubview:iv];
+}
 
 - (void)dealloc
 {

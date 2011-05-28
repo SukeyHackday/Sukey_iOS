@@ -11,9 +11,11 @@
 
 @implementation LTViewController
 
+#pragma mark Memory Management
 
 - (void)dealloc
-{
+{   
+    [localNavigationController release];
     [super dealloc];
 }
 
@@ -22,23 +24,14 @@
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
-    // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
 
-
-/*
-- (void)loadView
-{
-}
-*/
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 }
 
 

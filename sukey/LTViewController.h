@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Commons.h"
 
 @interface LTViewController : UIViewController {
-    
+    UINavigationController *localNavigationController;
 }
+
+- (void)addRecogniserToSubviewInView:(UIView *)containingView gesture:(UIGestureRecognizer *)gesture identifyingTag:(PictureTags)identifyingTag;
 
 @end

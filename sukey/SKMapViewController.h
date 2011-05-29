@@ -9,10 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import "LTViewController.h"
+#import "SKMapView.h"
 
 
 @interface SKMapViewController : LTViewController {
-    
+    SKMapView *skMap;
+    CGRect mapFrame;
 }
+
+@property (nonatomic, retain)SKMapView *skMap;
 
 @end

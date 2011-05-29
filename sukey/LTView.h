@@ -20,4 +20,5 @@
 - (id)initWithBackgroundColour:(UIColor *)colour;
 
 - (void)addImageAtPositionWithTag:(UIImage *)img position:(CGPoint)position tag:(PictureTags)tag;
+
 @end

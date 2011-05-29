@@ -36,6 +36,7 @@
     if (self) {
         [self setBackgroundColor:colour];
     }
+    return self;
 }
 
 

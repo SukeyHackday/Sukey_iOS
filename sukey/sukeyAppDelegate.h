@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface sukeyAppDelegate : NSObject <UIApplicationDelegate> {
-    UITabBarController *tabBaController;
+    UITabBarController *tabBarController;
 
 }
 

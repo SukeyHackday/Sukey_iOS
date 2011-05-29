@@ -7,5 +7,7 @@
 //
 
 typedef enum {
-    
+    MAP,
+    MAP2,
+    ICON
 }PictureTags;

@@ -15,4 +15,6 @@
 
 - (void)addRecogniserToSubviewInView:(UIView *)containingView gesture:(UIGestureRecognizer *)gesture identifyingTag:(PictureTags)identifyingTag;
 
+- (id)initWithTabBar:(NSString *)tabTitle navTitle:(NSString *)navTitle;
+
 @end

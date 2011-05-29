@@ -10,5 +10,22 @@
 
 
 @implementation SKMapView
+@synthesize mapView;
+
+- (id)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        mapView = [[MKMapView alloc] initWithFrame:frame];
+        [self addSubview:mapView];
+    }
+    return self;
+}
+
+#pragma mark Memory Management
+
+- (void)dealloc {
+    [mapView release];
+    [super dealloc];
+}
 
 @end

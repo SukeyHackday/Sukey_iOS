@@ -8,10 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "LTView.h"
+#import <MapKit/MapKit.h>
 
 
 @interface SKMapView : LTView {
     
+    MKMapView *mapView;
 }
+
+@property (nonatomic, retain)MKMapView *mapView;
+
+- (id)initWithFrame:(CGRect)frame;
 
 @end

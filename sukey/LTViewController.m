@@ -26,6 +26,20 @@
     
 }
 
+#pragma mark Setup Methods
+
+- (void)addRecogniserToSubviewInView:(UIView *)containingView gesture:(UIGestureRecognizer *)gesture identifyingTag:(PictureTags)identifyingTag {
+    
+}
+
+- (id)initWithTabBar:(NSString *)tabTitle navTitle:(NSString *)navTitle{
+    if ([self init]) {
+        self.title = tabTitle;
+        self.navigationItem.title = navTitle;
+    }
+    return self;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
